@@ -1,2 +1,35 @@
-# SQL-Order-Dataset
-I used SQL’s ORDER BY clause to sort the dataset in a structured way, arranging records in ascending or descending order based on selected columns. This helped me quickly identify trends, compare values, and make the data easier to analyze and interpret.
+select 
+* 
+from 
+"orders.csv";
+
+SELECT
+ order_id
+ from
+  orders;
+
+  Select 
+ distinct customer_id
+  from
+  orders;
+
+
+Select 
+ distinct product_name
+ from
+ orders 
+
+
+select
+*
+ from
+  orders 
+  order by
+   order_date desc
+
+select 
+ * 
+ from 
+ orders
+ order by 
+ order_date desc, product_name;
